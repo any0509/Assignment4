@@ -1,0 +1,62 @@
+﻿  ManageRecipe.cpp
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(12,5): error C7568: 가정한 함수 템플릿 'vector' 뒤에 인수 목록이 없습니다.
+  (소스 파일 'ManageRecipe.cpp'을(를) 컴파일하는 중)
+  
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(16,25): error C7568: 가정한 함수 템플릿 'vector' 뒤에 인수 목록이 없습니다.
+  (소스 파일 'ManageRecipe.cpp'을(를) 컴파일하는 중)
+  
+  main.cpp
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(12,5): error C7568: 가정한 함수 템플릿 'vector' 뒤에 인수 목록이 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(16,25): error C7568: 가정한 함수 템플릿 'vector' 뒤에 인수 목록이 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+  PotionRecipe.cpp
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(12,5): error C7568: 가정한 함수 템플릿 'vector' 뒤에 인수 목록이 없습니다.
+  (소스 파일 'PotionRecipe.cpp'을(를) 컴파일하는 중)
+  
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(16,25): error C7568: 가정한 함수 템플릿 'vector' 뒤에 인수 목록이 없습니다.
+  (소스 파일 'PotionRecipe.cpp'을(를) 컴파일하는 중)
+  
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.cpp(9,2): error C7568: 가정한 함수 템플릿 'vector' 뒤에 인수 목록이 없습니다.
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.cpp(12,34): error C2039: 'tring': 'std'의 멤버가 아닙니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\string(23,1):
+      'std' 선언을 참조하십시오.
+  
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.cpp(12,21): error C2761: 'void PotionRecipe::SetName(std::string)': 멤버를 재선언할 수 없습니다.
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.cpp(12,34): error C2065: 'tring': 선언되지 않은 식별자입니다.
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.cpp(12,40): error C2146: 구문 오류: ')'이(가) 'name' 식별자 앞에 없습니다.
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.cpp(12,46): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.cpp(12,46): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.cpp(13,36): error C7568: 가정한 함수 템플릿 'vector' 뒤에 인수 목록이 없습니다.
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.cpp(14,11): error C2672: 'std::copy': 일치하는 오버로드된 함수가 없습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(4982,9):
+      '_FwdIt2 std::copy(_ExPo &&,_FwdIt1,_FwdIt1,_FwdIt2) noexcept'일 수 있습니다.
+          C:\GitStudy\Assignment4\Assignment4\PotionRecipe.cpp(14,11):
+          '_FwdIt2 std::copy(_ExPo &&,_FwdIt1,_FwdIt1,_FwdIt2) noexcept': 4개의 인수가 필요합니다. 2개가 제공되었습니다.
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(4971,21):
+      또는       '_OutIt std::copy(_InIt,_InIt,_OutIt)'
+          C:\GitStudy\Assignment4\Assignment4\PotionRecipe.cpp(14,11):
+          '_OutIt std::copy(_InIt,_InIt,_OutIt)': 3개의 인수가 필요합니다. 2개가 제공되었습니다.
+  
+  RecipePrinter.cpp
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(12,5): error C7568: 가정한 함수 템플릿 'vector' 뒤에 인수 목록이 없습니다.
+  (소스 파일 'RecipePrinter.cpp'을(를) 컴파일하는 중)
+  
+C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(16,25): error C7568: 가정한 함수 템플릿 'vector' 뒤에 인수 목록이 없습니다.
+  (소스 파일 'RecipePrinter.cpp'을(를) 컴파일하는 중)
+  
+C:\GitStudy\Assignment4\Assignment4\RecipePrinter.cpp(13,49): error C2248: 'PotionRecipe::potionName': private 멤버('PotionRecipe' 클래스에서 선언)에 액세스할 수 없습니다.
+      C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(19,17):
+      'PotionRecipe::potionName' 선언을 참조하십시오.
+      C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(5,7):
+      'PotionRecipe' 선언을 참조하십시오.
+  
+C:\GitStudy\Assignment4\Assignment4\RecipePrinter.cpp(20,22): error C2248: 'PotionRecipe::ingredients': private 멤버('PotionRecipe' 클래스에서 선언)에 액세스할 수 없습니다.
+      C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(20,30):
+      'PotionRecipe::ingredients' 선언을 참조하십시오.
+      C:\GitStudy\Assignment4\Assignment4\PotionRecipe.h(5,7):
+      'PotionRecipe' 선언을 참조하십시오.
+  
+  코드를 생성하고 있습니다...
